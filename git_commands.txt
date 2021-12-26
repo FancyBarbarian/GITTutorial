@@ -3,6 +3,7 @@
     [f] : files
     [i] : info
 */
+GIT:
 
 ..[c] git init 
     initializes git 
@@ -30,4 +31,9 @@
     saves current changes without committing. [learn more]
 ..[c] git merge <branch_name>
     merges the changes to master branch
+    --squash : flag that merges multiple commits as one commit. 
 
+----------------------------------
+Github :
+
+Commands on page of created repo
