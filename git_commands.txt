@@ -1,0 +1,28 @@
+/*
+    [c] : command
+    [f] : files
+    [i] : info
+*/
+
+..[c] git init 
+    initializes git 
+..[c] del .git
+    removes .git folder, this uninitializes git.
+..[f] .gitignore
+    git skips all the files mentioned in this file.
+..[i] commit 
+    it is a snapshot of working directory
+..[i] stage files
+    stage adding files to commit.
+..[c] git add {file names(. for current directory)}
+    stages the files mentioned for commit.
+..[c] git reset {file names(. for current directory)}
+    unstages files mentioned
+    --hard : this flag unstages and deletes the files
+..[c] git commit
+        -m : this flag is used to add message when committing the changes.
+..[i] By default git works on Master branch
+..[c] git branch
+    shows all branches.
+..[c] git checkout 
+    -b : used to create a branch , this flag is followed by branch name to create a branch of that name.
