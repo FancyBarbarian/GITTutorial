@@ -27,5 +27,7 @@
 ..[c] git checkout 
     -b : used to create a branch , this flag is followed by branch name to create a branch of that name.
 ..[c] git stash -u
-    saves current changes without committing.
+    saves current changes without committing. [learn more]
+..[c] git merge <branch_name>
+    merges the changes to master branch
 
